@@ -44,6 +44,10 @@ body{
     background-color:#393b3e;
 }
 /*HEADER*/
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
 header {
     height:77px;
     -webkit-background-color:#fff;
