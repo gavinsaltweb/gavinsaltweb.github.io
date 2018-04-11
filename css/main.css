@@ -53,9 +53,9 @@ body{
     width: 53px;
 }
     #MainMenu{
-    height: 100vh;
+    height: 900px;
     width:70%;
-    background-color: #181818;
+    background-color: rgba(0, 0, 0, 0.9);
     -webkit-clip-path:polygon(0 0,100% 0,0% 100%,0% 100%);
     position: fixed;
     top:0;
@@ -77,13 +77,13 @@ ul{
     transform: translate(-50%,-50%);
 }
 ul li{
-    margin: 40px;
+    margin: 20px;
 }
 ul li:hover{
     cursor: pointer;
 }
 .line{
-    height: 4px;
+    height: 3px;
     width: 200px;
     background-color: white;
     margin-top: 10px;
@@ -128,14 +128,15 @@ ul li:hover .line{
 }
 
 .logo-main img{
-    max-width:50%;
+    max-width:90%;
 }
 
 
 @media only screen and (max-width: 800px) {
 
-
-
+.logo-main img{
+    max-width:100%!important;
+}
 
 
 
