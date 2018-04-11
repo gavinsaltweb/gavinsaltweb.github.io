@@ -9,8 +9,8 @@ body{
     height: 60px;
     width: 60px;
     position: fixed;
-    top:50;
-    right: 50;
+    top:50px;
+    right: 50px;
 }
 #MenuIcon:hover{
     cursor: pointer;
@@ -53,9 +53,9 @@ body{
     width: 53px;
 }
     #MainMenu{
-    height: 900px;
+    height: 100vh;
     width:70%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #181818;
     -webkit-clip-path:polygon(0 0,100% 0,0% 100%,0% 100%);
     position: fixed;
     top:0;
@@ -77,13 +77,13 @@ ul{
     transform: translate(-50%,-50%);
 }
 ul li{
-    margin: 20px;
+    margin: 40px;
 }
 ul li:hover{
     cursor: pointer;
 }
 .line{
-    height: 3px;
+    height: 4px;
     width: 200px;
     background-color: white;
     margin-top: 10px;
@@ -97,14 +97,14 @@ ul li:hover .line{
 }
 #logo{
     position: absolute;
-    top:100;
+    top:100px;
     left: 50%;
     transform: translate(-50%);
 }
 #close{
     width: 40px;
     position: absolute;
-    bottom: 150;
+    bottom: 150px;
     left: 50%;
     transform: translate(-50%);
           transition: ease 0.20s;
