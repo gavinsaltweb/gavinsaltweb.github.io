@@ -61,6 +61,7 @@ body{
     top:0;
     left: -70%;
     transition: all .5s ease-in-out;
+        z-index: 100;
 }
 
 ul{
@@ -128,15 +129,82 @@ ul li:hover .line{
 }
 
 .logo-main img{
-    max-width:90%;
+    margin-top:50px;
+    max-width:50%;
 }
+
+
+#button{
+            margin-top: 100px;
+    margin-left: 240px;
+            display: block;
+            color:#fff;
+            font-family: 'Black Han Sans', sans-serif;
+            width: 200px;
+            padding: 15px;
+            border: 4px solid #fff;
+            text-align: center;
+            transform: translate(-50%,-50%);
+            overflow: hidden;
+            transition: .5s;
+            font-size: 20px;
+        }
+        #button:after{
+            content: '';
+            width: 0px;
+            height: 120%;
+            position: absolute;
+            left: -10%;
+            bottom: 0;
+            background-color: #fff;
+            transform: skewX(15deg);
+            z-index: -1;
+            transition: .5s;
+        }
+        #button:hover{
+            cursor: pointer;
+            color:#5085ED;
+        }
+        #button:hover:after{
+            left: -10%;
+            width: 120%;
+        }
 
 
 @media only screen and (max-width: 800px) {
 
 .logo-main img{
-    max-width:100%!important;
+    max-width:90%!important;
+    margin-top: 20px;
+}
+    
+    #logo{
+    position: absolute;
+    top:20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+    #close{
+    width: 40px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+          transition: ease 0.20s;
+  -webkit-transition: ease 0.20s;
+  -moz-transition: ease 0.20s;
+  -ms-transition: ease 0.20s;
+  -o-transition: ease 0.20s;
+    }
+    
+#MenuIcon{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top:10px;
+    right: 10px!important;
 }
 
-
-
+#button{
+            margin-top: 100px;
+    margin-left: 180px;
