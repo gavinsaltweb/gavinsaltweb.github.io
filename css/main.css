@@ -2002,6 +2002,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+    .single-service p{
+    padding-right: 50px;
+     padding-left: 50px;
+}
+    .banner-content {
+    padding-top: 100px;
+    }
+    
+     #wrap-me3{
+    text-align: center!important;
+     padding-right: 22px;
+     padding-left: 22px;
+    }
+
+    #wrap-me2{
+     padding-right: 22px;
+     padding-left: 22px;
+    }
+    
+    #wrap-me{
+     padding-right: 50px;
+     padding-left: 50px;
+    }
+    #center-me{
+        text-align: center;
+    }
   #header #logo h1 {
     font-size: 28px;
   }
@@ -2579,6 +2605,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .home-about-area .home-about-right .form-select .nice-select .list .option {
   padding-left: 20px;
 }
+
+
 .single-service a{
     text-decoration: none;
     color: #222;
