@@ -1878,6 +1878,10 @@ h1, h2, h3, h4, h5, h6 {
   right: 20px;
 }
 
+#icon-changer a{
+    color: #222;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1972,7 +1976,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 673px) {
   #logo {
-    margin-left: 20px;
+    margin-left: 42px;
   }
 }
 
@@ -2119,9 +2123,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
-  right: 25px;
-  z-index: 999;
+  right: 42px;
   top: 60px;
+  z-index: 999;
   border: 0;
   background: none;
   font-size: 24px;
@@ -2133,7 +2137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   #mobile-nav-toggle {
-    top: 25px;
+    top: 50px;
   }
 }
 
@@ -2159,8 +2163,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 998;
   background: rgba(0, 0, 0, 0.8);
-  left: -260px;
-  width: 260px;
+  left: -100%;
+  width: 100%;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -2173,14 +2177,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li {
   position: relative;
+    padding-top: 50px;
 }
 
 #mobile-nav ul li a {
+    text-align: center;
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 35px 70px 35px 70px;
   position: relative;
   text-decoration: none;
   width: 100%;
@@ -3128,6 +3134,11 @@ background-position: bottom;
 #contact-form textarea{
     padding-bottom: 85px!important;
 }
+
+#instagram{
+    margin-top: -15px!important;
+}
+
 
 .input-select{
     font-weight: 500;
